@@ -1,0 +1,10 @@
+COMMANDS TO ADD STUFF TO GITHUB:
+
+1. stage changes: git add .
+2. commit any changes to git: git commit -m "text to tell yourself what you did"
+3. push changes to github: git push origin main
+
+ 
+COMMANDS TO GET STUFF FROM GITHUB:
+
+1: git pull origin main
