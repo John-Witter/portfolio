@@ -1,6 +1,5 @@
 #headshotSpan {
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
     height: 15rem;
 }
@@ -14,6 +13,7 @@
 
 #headshotContainer {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 2rem;
 }
 
