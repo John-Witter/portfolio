@@ -6,13 +6,15 @@
 -->
 <html>
   <head>
-    <title>Mary E. Witlacil</title>
+    <title>Mary Witlacil</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/research.css">
+    <link rel="stylesheet" href="assets/css/biography.css">
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
@@ -43,14 +45,14 @@
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#work">C.V.</a></li>
-            <li><a href="#about">Research</a></li>
-            <li><a href="#contact">Teaching</a></li>
-            <!--<li><a href="#elements">Elements</a></li>-->
-		</ul>
-		<!-- <div class="contact" /> -->
-		<ul style="width: 25%; margin: 2em auto;" class="contact">
-		<li><a href="#contact">Contact</a></li>
-	</ul>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- <li><a href="#elements">Elements</a></li> -->
+          </ul>
+          <!-- <div class="contact" /> -->
+          <!-- <ul style="width: 25%; margin: 2em auto;" class="contact"> -->
+            <!-- <li><a href="#contact">Teaching</a></li> -->
+	<!-- </ul> -->
         </nav>
       </header>
 
@@ -58,8 +60,10 @@
       <div id="main">
         <!-- About -->
         <article id="about">
-          <h2 class="major">Biography</h2>
-          <span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+          <div id="headshotContainer">
+            <h2 class="major" id="biographyHeader">Biography</h2>
+            <div id="headshotSpan"><img src="Thingies/Images/mary-twitter-headshot.jpeg" alt="mary headshot" id="headshot" /></div>
+          </div>
          <p>
 			Mary Witlacil is a PhD candidate in the Department of Political Science
 at Colorado State University. She is a 2022-2023 SOGES Leadership Fellow
@@ -77,16 +81,43 @@ published in <em>New Political Science</em>.
         <!-- Work -->
         <article id="work">
           <h2 class="major">C.V.</h2>
-          <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+          <!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
           <div>
             <!--
               src="./Thingies/CV/Witlacil CV August 2022.pdf#toolbar=0"
 			  -->
             <iframe
-              src="./Thingies/CV/Witlacil CV August 2022.pdf"
-              style="flex-grow: 1; width: 100%; height: 28rem"
+              src="./Thingies/CV/Witlacil CV September 2022.pdf"
+              style="flex-grow: 1; width: 100%; height: 40rem"
               >CV</iframe
             >
+          </div>
+        </article>
+
+        <!-- Research -->
+        <article id="research">
+          <h2 class="major">Research</h2>
+          <!-- <span class="image main"><img src="images/pic03.jpg" /></span> -->
+          <nav class="researchNav">
+            <ul>
+              <li><a href="#project-1" id="project-1-link" class="researchProject">Theorizing Ecopessimism</a></li>
+              <li><a href="#project-2" id="project-2-link" class="researchProject">Confronting the Racist History of American Environmentalism</a></li>
+              <li><a href="#project-3" id="project-3-link" class="researchProject">Contextualizing the Theoretical Strands of EPT</a></li>
+            </ul>
+          </nav>
+          <div id="project-1">
+            <h3>Theorizing Ecopessimism</h3> 
+              <p>In my dissertation, I argue that pessimism is a counterweight to American optimism and a compulsion to deny the political despair that has become ubiquitous in our age. While there are countless intractable structural problems, there is an equal abundance of politically unpalatable solutions. These are solutions that humanity has the technological capacity to entertain but not the political wherewithal to pursue. One explanation for this disconnect is that our contemporary moment shares an uneasy relationship with the narrative of history as progress, and the idea of history as Truth. There is an expectation—in the West—that the narrative arc of history bends toward progress. Even among the most aware, there is a near-pathological social compulsion to maintain optimism about the future—even when presented with mounting evidence that an increasingly chaotic future looms on the horizon. In my dissertation, I posit that pessimism, however disabused in popular culture, is a reasonable response to a bleak present that promises an uncertain future.</p>
+              <p>To lay the foundation for my argument and to build toward ecopessimism, my research explores the threads of pessimistic thought implicit in Friedrich Nietzsche, Michel Foucault, and the first generation of the Frankfurt School, but especially Theodor Adorno. Through the prism of Nietzsche and Foucault I illuminate what genealogical pessimism can offer for a theory of ecopessimism. Then, I look to Adorno for insights into a dialectical or critical pessimism. From there I turn to decolonial and afropessimist thinkers to examine the relationship between social death, liberation, settler colonialism, and environmental degradation. I round out my analysis by looking to contemporary theorists of affect who focus on hope, despair, optimism, and queer liberation—Sara Ahmed, Lauren Berlant, Jose Muñoz, Terry Eagleton, Joseph Winters, and Robyn Marasco, among others. I conclude by putting these thinkers in conversation with environmental political theory (EPT) to critique the problematic strains of previously existing ecopessimisms. I then weave together the aforementioned thinkers to develop a theory of left ecopessimism that avoids the pitfalls of ecoauthoritarianism, ecofascism, and the anti-human strains of eco-anarchism.</p>
+
+          </div>
+          <div id="project-2">
+            <h3>Confronting the Racist History of American Environmentalism</h3>
+            <p>In my second project, I explore the troubling legacies of John Muir and Edward Abbey, the putative darlings of the American West. Each of these men wrote gorgeous prose about the desert southwest and Rocky Mountains that inspired the development of the National Parks and an ethos of Western environmentalism—while simultaneously maintaining deplorable views about Indigenous people and immigrants. In this project, I build on the work of Prakash Kashwan (2020, forthcoming), Macarena Gómez-Barris (2017), Dorceta Taylor (2016), and Carolyn Merchant (2003) to unpack the troubled and racist legacy of the conservation and preservation movements in the U.S. and the Global South.</p>
+          </div>
+          <div id="project-3">
+            <h3>Contextualizing the Theoretical Strands of EPT</h3>
+            <p>My final upcoming project will address a deficit within EPT. There are currently two edited handbooks of EPT, and a newer volume that shows how the field addresses the dominant concepts of political theory. I propose to develop a manuscript that covers each of the theoretical strands of EPT. This will include chapters on romanticism, conservation, preservation, eco-authoritarianism, deep ecology, ecosocialism, ecofeminism, new materialism, civic republicanism, cosmopolitanism, environmental justice, indigenous/traditional ecological knowledge (TEK), ecopessimism, and radical ecotheory. I have laid much of the foundation for this project in my graduate training at Colorado State University, and once completed, it will be an excellent resource for environmental political theorists.</p>
           </div>
         </article>
 
@@ -117,20 +148,31 @@ published in <em>New Political Science</em>.
           </form>
           <ul class="icons">
             <li>
-              <a href="https://twitter.com/stellastray" target="_blank" class="icon brands fa-twitter"
+              <a href="https://twitter.com/stellastray" target="_blank" class="icon brands fa-twitter" title="twitter"
                 ><span class="label">Twitter</span></a
               >
             </li>
-            <li src="./images/google-scholar-icon.png" >
-              <a href="https://scholar.google.com/citations?user=hn-UUMoAAAAJ&hl=en" target="_blank" class="icon brands"
-                ><span class="label">Google Scholar</span></a
+            <li>
+              <a href="https://scholar.google.com/citations?user=hn-UUMoAAAAJ&hl=en" target="_blank" class="icon brands" title="google scholar"
+                >
+                <!-- <span class="label">Google Scholar</span> -->
+                <img src="./images/google-scholar-icon.png" alt="google scholar" style="border-radius: 100%;
+                box-shadow: inset 0 0 0 1px #ffffff;
+                display: inline-block;
+                height: 2.25rem;
+                line-height: 2.25rem;
+                text-align: center;
+                width: 2.25rem;
+                background-color: white;
+                border: 1px solid white;" />  
+              </a
               >
             </li>
-            <li>
+            <!-- <li>
               <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" class="icon brands fa-github"
                 ><span class="label">GitHub</span></a
               >
-            </li>
+            </li> -->
           </ul>
         </article>
 
@@ -460,5 +502,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/research.js"></script>
   </body>
 </html>
