@@ -1,0 +1,11 @@
+.projectLink {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.selected {
+    font-weight: bold;
+}
