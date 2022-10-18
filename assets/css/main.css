@@ -1430,6 +1430,7 @@ body.is-preload #bg:before {
   line-height: 5.5rem;
   border: solid 5px #ffffff;
   border-radius: 100%;
+  top: 5px;
 }
 
 #header .logo .icon:before {
