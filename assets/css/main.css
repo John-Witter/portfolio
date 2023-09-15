@@ -1531,6 +1531,11 @@ body.is-preload #bg:before {
 /*   border-left: 0; */
 }
 
+li.is-middle {
+  position: relative;
+  left: 3px;
+}
+
 /* make middle line thick */
 li.is-middle > a {
   padding: 0;
