@@ -1538,7 +1538,7 @@ li.is-middle {
 
 /* make middle line thick */
 li.is-middle > a {
-  padding: 0;
+  padding: 0 !important;
 }
 
 body.is-article-visible #header {
