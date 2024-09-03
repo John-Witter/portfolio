@@ -33,4 +33,36 @@ document.addEventListener("DOMContentLoaded", () => {
     project1Link.classList.remove("selected")
     project2Link.classList.remove("selected")
   });
+
+  const teachingPhilosophy = document.getElementById("teaching-philosophy");
+  const coursesTaught = document.getElementById("courses-taught");
+  const selectCourseDescriptions = document.getElementById("select-course-descriptions");
+  const teachingPhilosophyLink = document.getElementById("teaching-philosophy-link");
+  const coursesTaughtLink = document.getElementById("courses-taught-link");
+  const selectCourseDescriptionsLink = document.getElementById("select-course-descriptions-link");
+
+  teachingPhilosophyLink.addEventListener("click", () => {
+    teachingPhilosophy.classList.remove("hidden");
+    coursesTaught.classList.add("hidden");
+    selectCourseDescriptions.classList.add("hidden");
+    teachingPhilosophyLink.classList.add("selected")
+    coursesTaughtLink.classList.remove("selected")
+    selectCourseDescriptionsLink.classList.remove("selected")
+  });
+  coursesTaughtLink.addEventListener("click", () => {
+    coursesTaught.classList.remove("hidden");
+    teachingPhilosophy.classList.add("hidden");
+    selectCourseDescriptions.classList.add("hidden");
+    coursesTaughtLink.classList.add("selected")
+    teachingPhilosophyLink.classList.remove("selected")
+    selectCourseDescriptionsLink.classList.remove("selected")
+  });
+  selectCourseDescriptionsLink.addEventListener("click", () => {
+    selectCourseDescriptions.classList.remove("hidden");
+    teachingPhilosophy.classList.add("hidden");
+    coursesTaught.classList.add("hidden");
+    selectCourseDescriptionsLink.classList.add("selected")
+    teachingPhilosophyLink.classList.remove("selected")
+    coursesTaughtLink.classList.remove("selected")
+  });
 });
